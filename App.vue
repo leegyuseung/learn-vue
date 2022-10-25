@@ -1,7 +1,11 @@
-<template><div></div></template>
+<template>
+  <div></div>
+</template>
 
 <script>
-export default { setup() {} };
+export default {
+  setup() {},
+};
 </script>
 
 <style></style>
