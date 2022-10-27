@@ -8,8 +8,6 @@
         <div class="col-4"><AppCardVue /></div>
         <div class="col-4"><AppCardVue /></div>
         <div class="col-4"><AppCardVue /></div>
-
-        <!-- <div class="col-4"><app-card-vue /></div> -->
       </div>
     </div>
   </main>
