@@ -9,7 +9,6 @@
       </p>
       <a href="#" class="btn" :class="isLikeClass">좋아요</a>
       <br />
-      {{ obj }}
     </div>
   </div>
 </template>
@@ -32,7 +31,7 @@ export default {
     },
     contents: {
       type: String,
-      required: true,
+      // required: true,
     },
     isLike: {
       type: Boolean,
