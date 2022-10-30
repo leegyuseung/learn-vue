@@ -1,13 +1,16 @@
 <template>
-  <main>
-    <ProvideInject></ProvideInject>
-  </main>
+  <div><LifecycleHook></LifecycleHook></div>
 </template>
 
 <script>
-import ProvideInject from "./ProvideInject.vue";
+import LifecycleHook from "./LifecycleHook.vue";
 
-export default { components: { ProvideInject }, setup() {} };
+export default {
+  setup() {
+    return {};
+  },
+  components: { LifecycleHook },
+};
 </script>
 
 <style></style>
