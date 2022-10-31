@@ -1,16 +1,9 @@
 <template>
-  <main><TemplateRefs></TemplateRefs></main>
+  <main><ScriptSetup></ScriptSetup></main>
 </template>
 
-<script>
-import TemplateRefs from "./TemplateRefs.vue";
-
-export default {
-  setup() {
-    return {};
-  },
-  components: { TemplateRefs },
-};
+<script setup>
+import ScriptSetup from "./ScriptSetup.vue";
 </script>
 
 <style></style>
