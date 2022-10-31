@@ -1,5 +1,5 @@
 <template>
-  <div><AppCard></AppCard></div>
+  <div><AppCard>바나나</AppCard></div>
 </template>
 
 <script setup>
